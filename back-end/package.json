@@ -1,0 +1,52 @@
+{
+  "name": "shopping-mall-api-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon --exec ts-node --files -r tsconfig-paths/register src/index.ts",
+    "start": "ts-node --files -r tsconfig-paths/register src/index.ts",
+    "build": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowlancer9/shopping-mall-api-node.git"
+  },
+  "author": "snowlancer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snowlancer9/shopping-mall-api-node/issues"
+  },
+  "homepage": "https://github.com/snowlancer9/shopping-mall-api-node#readme",
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.5.9",
+    "aws-sdk": "^2.1221.0",
+    "body-parser": "^1.20.0",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.23.1",
+    "sequelize-typescript": "^2.1.3",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.7.18",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.3"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "*.json"
+    ]
+  }
+}

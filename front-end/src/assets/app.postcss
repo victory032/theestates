@@ -1,0 +1,47 @@
+@import "./tailwind.postcss";
+@import "./fonts.postcss";
+@import "./transitions.postcss";
+@import "./components/container.postcss";
+@import "./components/button.postcss";
+@import "./components/ribbon.postcss";
+
+html,
+body {
+  @apply min-h-full h-full;
+}
+
+#app {
+  @apply bg-gradient-to-tr from-[#030e17] to-[#082634] text-white;
+  @apply flex flex-col min-h-full bg-[url('/background.png')];
+}
+
+.checkbox {
+  @apply inline-flex items-center gap-2 text-sm;
+  > label {
+    @apply cursor-pointer transition;
+  }
+  > span {
+    @apply w-4 h-4 rounded bg-white text-black/20 border-black flex items-center justify-center transition;
+  }
+  > input {
+    display: none;
+  }
+  > input:checked + span {
+    @apply bg-black text-white;
+  }
+  &:hover {
+    > span {
+      @apply text-black/40;
+    }
+  }
+  &:focus {
+    > span {
+      @apply ring-2 ring-black ring-opacity-30;
+    }
+  }
+  &:active {
+    > label {
+      @apply text-white/70;
+    }
+  }
+}
