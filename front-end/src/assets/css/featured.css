@@ -1,0 +1,49 @@
+.carousel-buttons {
+  .tile-btn {
+    display: inline;
+    cursor: pointer;
+    background-color: #030312;
+    color: #3b425e;
+    padding: 4px 10px;
+    margin: 5px;
+    border: 2px ridge transparent;
+    background-image: linear-gradient(to bottom, #2a2a2a, #0e0e0e);
+    box-shadow: 0 0px 0px 0px #ffbcdd, 7px 1000px 1px #030412 inset;
+    background-origin: border-box;
+    &:hover {
+      background-image: linear-gradient(to bottom, #fbc67a, #935912);
+      color: #ffad67;
+    }
+  }
+}
+
+.tile-active {
+  background-image: linear-gradient(to bottom, #fbc67a, #935912) !important;
+  color: #ffad67 !important;
+}
+
+.slide-item {
+  display: none;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.ridge {
+  border-style: ridge;
+}
+
+.font-conthrax {
+  font-family: "Conthrax SB";
+}

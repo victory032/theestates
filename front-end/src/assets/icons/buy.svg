@@ -1,0 +1,47 @@
+ <svg
+            viewBox="0 0 30 30"
+            width="20px"
+            height="30px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            enable-background="new 0 0 30 30"
+          >
+            <circle
+              cx="22"
+              cy="25"
+              r="2"
+              fill="#ffffff"
+              class="fill-000000 fill-ffffff"
+            ></circle>
+            <circle
+              cx="12"
+              cy="25"
+              r="2"
+              fill="#ffffff"
+              class="fill-000000 fill-ffffff"
+            ></circle>
+            <path
+              d="M2 3h1.878a1.5 1.5 0 0 1 1.439 1.077l4.261 14.488A2 2 0 0 0 11.496 20h10.976c.902 0 1.692-.604 1.93-1.474L27 9h-5"
+              fill="none"
+              stroke="#ffffff"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+              class="stroke-000000 stroke-ffffff"
+            ></path>
+            <path
+              d="M18 9v5.586l2.293-2.293a.999.999 0 1 1 1.414 1.414l-4 4a.997.997 0 0 1-1.414 0l-4-4a.999.999 0 1 1 1.414-1.414L16 14.586V9H7l3.5 11H24l3-11h-9zM18 3a1 1 0 0 0-2 0v5h2V3z"
+              fill="#ffffff"
+              class="fill-000000 fill-ffffff"
+            ></path>
+            <path
+              d="M18 9h5M7 9h9"
+              fill="none"
+              stroke="#ffffff"
+              stroke-width="2"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+              class="stroke-000000 stroke-ffffff"
+            ></path>
+          </svg>
